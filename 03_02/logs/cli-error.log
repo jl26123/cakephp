@@ -1,0 +1,192 @@
+2017-09-30 01:56:21 Warning: Warning (2): Declaration of Cake\Chronos\Traits\FrozenTimeTrait::setTime($hours, $minutes, $seconds = 0) should be compatible with DateTime::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [G:\计算机辅导书\PHP\Ex_Files_CakePHP_3_EssT\Exercise Files\Ch03\03_02\vendor\cakephp\chronos\src\MutableDate.php, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+include - ROOT\vendor\cakephp\chronos\src\MutableDate.php, line 24
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\Date.php, line 26
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::_setClassName() - CORE\src\Database\Type\DateTimeType.php, line 250
+Cake\Database\Type\DateTimeType::__construct() - CORE\src\Database\Type\DateTimeType.php, line 85
+Cake\Database\Type::build() - CORE\src\Database\Type.php, line 106
+include - ROOT\config\bootstrap.php, line 207
+[main] - ROOT\bin\cake.php, line 31
+
+
+
+2017-09-30 01:56:21 Warning: Warning (2): Declaration of Cake\Chronos\Date::setTime($hours, $minutes, $seconds = 0) should be compatible with DateTimeImmutable::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [G:\计算机辅导书\PHP\Ex_Files_CakePHP_3_EssT\Exercise Files\Ch03\03_02\vendor\cakephp\chronos\src\Date.php, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+include - ROOT\vendor\cakephp\chronos\src\Date.php, line 24
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\FrozenDate.php, line 28
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::_setClassName() - CORE\src\Database\Type\DateTimeType.php, line 250
+Cake\Database\Type\DateType::useImmutable() - CORE\src\Database\Type\DateType.php, line 47
+include - ROOT\config\bootstrap.php, line 208
+[main] - ROOT\bin\cake.php, line 31
+
+
+
+2017-09-30 01:56:21 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Sever" could not be found.
+Exception Attributes: array (
+  'class' => 'Sever',
+)
+Stack Trace:
+#0 G:\计算机辅导书\PHP\Ex_Files_CakePHP_3_EssT\Exercise Files\Ch03\03_02\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(214): Cake\Console\ShellDispatcher->findShell('Sever')
+#1 G:\计算机辅导书\PHP\Ex_Files_CakePHP_3_EssT\Exercise Files\Ch03\03_02\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 G:\计算机辅导书\PHP\Ex_Files_CakePHP_3_EssT\Exercise Files\Ch03\03_02\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 G:\计算机辅导书\PHP\Ex_Files_CakePHP_3_EssT\Exercise Files\Ch03\03_02\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2017-09-30 01:57:45 Warning: Warning (2): Declaration of Cake\Chronos\Traits\FrozenTimeTrait::setTime($hours, $minutes, $seconds = 0) should be compatible with DateTime::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [G:\cakephp\03_02\vendor\cakephp\chronos\src\MutableDate.php, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+include - ROOT\vendor\cakephp\chronos\src\MutableDate.php, line 24
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\Date.php, line 26
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::_setClassName() - CORE\src\Database\Type\DateTimeType.php, line 250
+Cake\Database\Type\DateTimeType::__construct() - CORE\src\Database\Type\DateTimeType.php, line 85
+Cake\Database\Type::build() - CORE\src\Database\Type.php, line 106
+include - ROOT\config\bootstrap.php, line 207
+[main] - ROOT\bin\cake.php, line 31
+
+
+
+2017-09-30 01:57:45 Warning: Warning (2): Declaration of Cake\Chronos\Date::setTime($hours, $minutes, $seconds = 0) should be compatible with DateTimeImmutable::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [G:\cakephp\03_02\vendor\cakephp\chronos\src\Date.php, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+include - ROOT\vendor\cakephp\chronos\src\Date.php, line 24
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\FrozenDate.php, line 28
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::_setClassName() - CORE\src\Database\Type\DateTimeType.php, line 250
+Cake\Database\Type\DateType::useImmutable() - CORE\src\Database\Type\DateType.php, line 47
+include - ROOT\config\bootstrap.php, line 208
+[main] - ROOT\bin\cake.php, line 31
+
+
+
+2017-09-30 01:57:45 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Sever" could not be found.
+Exception Attributes: array (
+  'class' => 'Sever',
+)
+Stack Trace:
+#0 G:\cakephp\03_02\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(214): Cake\Console\ShellDispatcher->findShell('Sever')
+#1 G:\cakephp\03_02\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 G:\cakephp\03_02\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 G:\cakephp\03_02\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2017-09-30 01:58:10 Warning: Warning (2): Declaration of Cake\Chronos\Traits\FrozenTimeTrait::setTime($hours, $minutes, $seconds = 0) should be compatible with DateTime::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [G:\cakephp\03_02\vendor\cakephp\chronos\src\MutableDate.php, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+include - ROOT\vendor\cakephp\chronos\src\MutableDate.php, line 24
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\Date.php, line 26
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::_setClassName() - CORE\src\Database\Type\DateTimeType.php, line 250
+Cake\Database\Type\DateTimeType::__construct() - CORE\src\Database\Type\DateTimeType.php, line 85
+Cake\Database\Type::build() - CORE\src\Database\Type.php, line 106
+include - ROOT\config\bootstrap.php, line 207
+[main] - ROOT\bin\cake.php, line 31
+
+
+
+2017-09-30 01:58:10 Warning: Warning (2): Declaration of Cake\Chronos\Date::setTime($hours, $minutes, $seconds = 0) should be compatible with DateTimeImmutable::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [G:\cakephp\03_02\vendor\cakephp\chronos\src\Date.php, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+include - ROOT\vendor\cakephp\chronos\src\Date.php, line 24
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\FrozenDate.php, line 28
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::_setClassName() - CORE\src\Database\Type\DateTimeType.php, line 250
+Cake\Database\Type\DateType::useImmutable() - CORE\src\Database\Type\DateType.php, line 47
+include - ROOT\config\bootstrap.php, line 208
+[main] - ROOT\bin\cake.php, line 31
+
+
+
+2017-09-30 01:58:10 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Serve" could not be found.
+Exception Attributes: array (
+  'class' => 'Serve',
+)
+Stack Trace:
+#0 G:\cakephp\03_02\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(214): Cake\Console\ShellDispatcher->findShell('Serve')
+#1 G:\cakephp\03_02\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 G:\cakephp\03_02\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 G:\cakephp\03_02\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2017-09-30 01:58:17 Warning: Warning (2): Declaration of Cake\Chronos\Traits\FrozenTimeTrait::setTime($hours, $minutes, $seconds = 0) should be compatible with DateTime::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [G:\cakephp\03_02\vendor\cakephp\chronos\src\MutableDate.php, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+include - ROOT\vendor\cakephp\chronos\src\MutableDate.php, line 24
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\Date.php, line 26
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::_setClassName() - CORE\src\Database\Type\DateTimeType.php, line 250
+Cake\Database\Type\DateTimeType::__construct() - CORE\src\Database\Type\DateTimeType.php, line 85
+Cake\Database\Type::build() - CORE\src\Database\Type.php, line 106
+include - ROOT\config\bootstrap.php, line 207
+[main] - ROOT\bin\cake.php, line 31
+
+
+
+2017-09-30 01:58:17 Warning: Warning (2): Declaration of Cake\Chronos\Date::setTime($hours, $minutes, $seconds = 0) should be compatible with DateTimeImmutable::setTime($hour, $minute, $second = NULL, $microseconds = NULL) in [G:\cakephp\03_02\vendor\cakephp\chronos\src\Date.php, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 147
+include - ROOT\vendor\cakephp\chronos\src\Date.php, line 24
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+include - CORE\src\I18n\FrozenDate.php, line 28
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Database\Type\DateTimeType::_setClassName() - CORE\src\Database\Type\DateTimeType.php, line 250
+Cake\Database\Type\DateType::useImmutable() - CORE\src\Database\Type\DateType.php, line 47
+include - ROOT\config\bootstrap.php, line 208
+[main] - ROOT\bin\cake.php, line 31
+
+
+
